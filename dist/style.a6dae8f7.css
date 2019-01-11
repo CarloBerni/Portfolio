@@ -56,7 +56,7 @@ body {
   background: black;
 }
 
-#downloadCatalogText {
+#text {
   position: absolute;
   bottom: 15%;
   left: 83%;
