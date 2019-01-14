@@ -1,7 +1,7 @@
 import Parallax from '.../../parallax-js';
-import helpers from './helpers';
+import sub from './sub';
 
-console.log(helpers.double(12));
+console.log(sub.double(12));
 
 var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);
