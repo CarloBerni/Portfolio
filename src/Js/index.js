@@ -1,4 +1,4 @@
-import Parallax from 'parallax-js'
+import Parallax from 'parallax-js';
 import helpers from './helpers';
 
 console.log(helpers.double(12));
