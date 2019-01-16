@@ -64,13 +64,12 @@ body {
 
 .d1 {
   margin-top: 200px;
-  margin-left: 800px;
-  width: 300px;
+  margin-left: 100px;
 }
 
 .d2 {
   margin-top: 300px;
-  margin-left: 950px;
+  margin-left: 1200px;
   width: 150px;
 }
 
@@ -82,8 +81,7 @@ body {
 
 .d4 {
   margin-top: 100px;
-  margin-left: 1200px;
-  width: 110px;
+  margin-left: 900px;
 }
 
 .d5 {
@@ -95,8 +93,4 @@ body {
 .d6 {
   margin-top: -450px;
   margin-left: 600px;
-}
-
-.d6:hover {
-  background-color: aqua;
 }
