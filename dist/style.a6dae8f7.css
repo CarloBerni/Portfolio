@@ -55,7 +55,11 @@ table {
 
 body {
   font-family: "Raleway", sans-serif;
-  height: 120vh;
+  margin: 0px;
+  padding: 0px;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url("tobias-van-schneider-97611-unsplash.079026f8.jpg");
 }
 
 .d1 {
