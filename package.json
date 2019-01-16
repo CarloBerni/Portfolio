@@ -24,7 +24,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "parallax-js": "^3.1.0",
-    "parcel": "^1.11.0"
+    "parcel": "^1.11.0",
+    "rellax": "^1.7.2"
   }
 }
