@@ -70,7 +70,6 @@ body {
 .d2 {
   margin-top: 300px;
   margin-left: 1200px;
-  width: 150px;
 }
 
 .d3 {
@@ -84,13 +83,12 @@ body {
   margin-left: 900px;
 }
 
-.d5 {
-  margin-top: -100px;
-  margin-left: 900px;
-  width: 500px;
+.linkedin {
+  margin-top: 400px;
+  margin-left: 750px;
 }
 
-.d6 {
-  margin-top: -450px;
+.git {
+  margin-top: -300px;
   margin-left: 600px;
 }
