@@ -62,34 +62,37 @@ body {
   background-image: url("bert-sz-1213179-unsplash.ede68567.jpg");
 }
 
-.image__1 {
+.rellax__socomptoir {
   margin-top: 200px;
   margin-left: 100px;
   width: 100px;
 }
 
-.d2 {
+.rellax__tothetop {
   margin-top: 300px;
   margin-left: 1200px;
+  width: 100px;
 }
 
-.d3 {
+.rellax__alien {
   margin-top: -250px;
   margin-left: 340px;
   width: 200px;
 }
 
-.d4 {
+.rellax__canon {
   margin-top: -300px;
   margin-left: 900px;
+  width: 100px;
 }
 
-.linkedin {
+.rellax__linkedin {
   margin-top: 400px;
   margin-left: 750px;
+  width: 40px;
 }
 
-.git {
-  margin-top: -300px;
-  margin-left: 600px;
+.rellax__github {
+  transform: translate(50%, 50%);
+  width: 40px;
 }
