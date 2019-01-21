@@ -11,4 +11,3 @@ new rellax(".rellax", {
   }
 });
 
-

@@ -2,7 +2,7 @@
   "name": "Portfolio",
   "version": "1.0.0",
   "description": "trying to do some cool skills for my portfolio",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"

@@ -53,46 +53,46 @@ table {
   border-spacing: 0;
 }
 
-body {
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
   font-family: "Raleway", sans-serif;
-  margin: 0px;
-  padding: 0px;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  background-image: url("bert-sz-1213179-unsplash.ede68567.jpg");
 }
 
-.rellax__socomptoir {
-  margin-top: 200px;
-  margin-left: 100px;
-  width: 100px;
+section:first-child {
+  background: teal;
+  color: white;
 }
 
-.rellax__tothetop {
-  margin-top: 300px;
-  margin-left: 1200px;
-  width: 100px;
+section:nth-child(2) {
+  background: url("tobias-van-schneider-97611-unsplash.079026f8.jpg");
 }
 
-.rellax__alien {
-  margin-top: -250px;
-  margin-left: 340px;
-  width: 200px;
+section:nth-child(3) {
+  background: pink;
 }
 
-.rellax__canon {
-  margin-top: -300px;
-  margin-left: 900px;
-  width: 100px;
+.rellax:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 }
 
-.rellax__linkedin {
-  margin-top: 400px;
-  margin-left: 750px;
-  width: 40px;
-}
-
-.rellax__github {
-  transform: translate(50%, 50%);
-  width: 40px;
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
