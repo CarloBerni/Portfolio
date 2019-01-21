@@ -5,9 +5,7 @@ console.log(helpers.double(12));
 console.log(rellax);
 
 
-new rellax(".rellax", {
-		
-  callback: function(position) {
-  }
+var Rellax = new rellax(".rellax", {
+  center: true
 });
 

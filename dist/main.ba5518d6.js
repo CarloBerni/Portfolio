@@ -460,8 +460,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 console.log(_sub.default.double(12));
 console.log(_rellax.default);
-new _rellax.default(".rellax", {
-  callback: function callback(position) {}
+var Rellax = new _rellax.default(".rellax", {
+  center: true
 });
 },{"rellax":"../node_modules/rellax/rellax.js","./sub":"Js/sub.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -490,7 +490,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49817" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49832" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
