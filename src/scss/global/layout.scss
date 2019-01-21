@@ -2,6 +2,7 @@
 
 section {
   min-height: 100vh;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +22,7 @@ section:nth-child(3) {
 .rellax {
   position: absolute;
   opacity: 0.7;
+  top: 0;
 
 }
 .rellax:nth-child(1) {
