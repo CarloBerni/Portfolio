@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+img {
+  max-width: 100%;
+}
+
 section {
   min-height: 100vh;
   position: relative;
@@ -32,6 +36,7 @@ section:nth-child(3) {
 }
 .rellax:nth-child(2) {
   left: 10%;
+  top: 30%;
   width:20px;
   height:26px;
 }
@@ -64,7 +69,7 @@ section:nth-child(3) {
 
 
 
-.rellax:hover {
+:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
