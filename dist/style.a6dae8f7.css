@@ -145,7 +145,7 @@ section:nth-child(5) {
 .canon img {
   width: 1450px;
   height: 450px;
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%) blur(2.5px);
 }
 .canon img:hover {
   filter: none;
