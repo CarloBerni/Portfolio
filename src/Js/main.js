@@ -6,6 +6,5 @@ console.log(rellax);
 
 
 var Rellax = new rellax(".rellax", {
-  center: true
 });
 
