@@ -85,7 +85,13 @@ section:nth-child(5) {
 .canon img {
   width: 1450px;
   height: 450px;
+  filter: grayscale(100%);
+  &:hover {
+    filter: none;
+  }
 }
+
+
 
 
 
