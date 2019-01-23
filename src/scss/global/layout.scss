@@ -20,6 +20,16 @@ section:first-child {
 section:nth-child(2) {
   background: pink;
 }
+section:nth-child(3) {
+  background: red;
+}
+section:nth-child(4) {
+  background:green;
+}
+section:nth-child(5) {
+  background: blue;
+}
+
 .rellax {
   position: absolute;
   opacity: 0.7;
@@ -45,14 +55,14 @@ section:nth-child(2) {
   height:300px;
 }
 .rellax:nth-child(4) {
-  left: 80%;
-  top: 80%;
+  left: 90%;
+  top: 5%;
   width:60px;
   height:60px;
 }
 .rellax:nth-child(5) {
-  left: 82%;
-  top: 80%;
+  left: 92%;
+  top: 5%;
   width:60px;
   height:60px;
 }
