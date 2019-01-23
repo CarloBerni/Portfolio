@@ -13,14 +13,11 @@ section {
   font-size: 50px;
   font-family: 'Raleway', sans-serif;
 }
+
 section:first-child {
-  background: teal;
-  color: white;
-}
-section:nth-child(2) {
   background: url("/img/tobias-van-schneider-97611-unsplash.jpg");
 }
-section:nth-child(3) {
+section:nth-child(2) {
   background: pink;
 }
 .rellax {

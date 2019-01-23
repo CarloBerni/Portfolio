@@ -68,15 +68,10 @@ section {
 }
 
 section:first-child {
-  background: teal;
-  color: white;
-}
-
-section:nth-child(2) {
   background: url("tobias-van-schneider-97611-unsplash.079026f8.jpg");
 }
 
-section:nth-child(3) {
+section:nth-child(2) {
   background: pink;
 }
 
