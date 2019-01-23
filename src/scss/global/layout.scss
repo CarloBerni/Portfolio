@@ -4,12 +4,11 @@
   width:60px;
   height:60px;
   position: absolute;
+  -webkit-transition: all 0.2s ease;
 }
-
 img {
   max-width: 100%;
 }
-
 section {
   min-height: 100vh;
   position: relative;
@@ -60,10 +59,16 @@ section {
 .github {
   left: 90%;
  @include logo-git-link;
+ &:hover {
+  -webkit-transform: scale(1.2);
+}
 }
 .linkedin {
   left: 94%;
   @include logo-git-link;
+  &:hover {
+    -webkit-transform: scale(1.2);
+  }
 }
 .canon {
   display: flex;
