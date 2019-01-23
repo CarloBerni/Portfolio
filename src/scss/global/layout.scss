@@ -70,14 +70,16 @@ section {
     -webkit-transform: scale(1.2);
   }
 }
-.canon {
+.canon,
+.SoComptoir,
+.ToTheTop {
   display: flex;
   flex-direction: row;
   margin-left: 2%;
   margin-right: 2%;
   p {
     font-size: 22px;
-    padding-left: 10px;
+    padding-left: 35px;
   }
   img {
     width: 1450px;

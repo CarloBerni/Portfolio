@@ -130,21 +130,29 @@ section:nth-child(5) {
   -webkit-transform: scale(1.2);
 }
 
-.canon {
+.canon,
+.SoComptoir,
+.ToTheTop {
   display: flex;
   flex-direction: row;
   margin-left: 2%;
   margin-right: 2%;
 }
-.canon p {
+.canon p,
+.SoComptoir p,
+.ToTheTop p {
   font-size: 22px;
-  padding-left: 10px;
+  padding-left: 35px;
 }
-.canon img {
+.canon img,
+.SoComptoir img,
+.ToTheTop img {
   width: 1450px;
   height: 450px;
   -webkit-filter: grayscale(100%) blur(2.5px);
 }
-.canon img:hover {
+.canon img:hover,
+.SoComptoir img:hover,
+.ToTheTop img:hover {
   filter: none;
 }
