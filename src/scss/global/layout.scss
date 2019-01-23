@@ -69,7 +69,23 @@ section:nth-child(5) {
   @include logo-git-link;
 }
 
+.canon{
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  margin-right: 2%;
+  
+}
 
+.canon p{
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+.canon img {
+  width: 1450px;
+  height: 450px;
+}
 
 
 
