@@ -87,6 +87,7 @@ section {
     -webkit-filter: grayscale(100%) blur(2.5px);
     &:hover {
       filter: none;
+      -webkit-transition: all 0.3s ease;
     }
   }
 }

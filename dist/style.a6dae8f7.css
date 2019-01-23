@@ -155,4 +155,5 @@ section:nth-child(5) {
 .SoComptoir img:hover,
 .ToTheTop img:hover {
   filter: none;
+  -webkit-transition: all 0.3s ease;
 }
