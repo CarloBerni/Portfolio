@@ -68,10 +68,10 @@ section {
   font-family: "Raleway", sans-serif;
 }
 section:first-child {
-  background: white;
+  background: gray;
 }
 section:nth-child(3) {
-  background: red;
+  background: black;
 }
 
 .rellax {
@@ -128,7 +128,7 @@ section:nth-child(3) {
 .section--horizontal .section__inner {
   width: 300vw;
   height: 100vh;
-  background: green;
+  background: white;
   position: absolute;
   top: 0;
   left: 0;

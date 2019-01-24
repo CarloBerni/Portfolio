@@ -22,10 +22,10 @@ section {
   overflow: hidden;
   font-family: "Raleway", sans-serif;
   &:first-child {
-    background: white;
+    background: gray;
   }
   &:nth-child(3) {
-    background: red;
+    background: black;
   }
 }
 
@@ -74,7 +74,7 @@ section {
   .section__inner {
     width: 300vw;
     height: 100vh;
-    background: green;
+    background: white;
     position: absolute;
     top: 0;
     left: 0;
