@@ -56,7 +56,7 @@ section {
   left: 90%;
   @include logo-git-link;
   &:hover {
-    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
   }
 }
 
@@ -64,7 +64,7 @@ section {
   left: 94%;
   @include logo-git-link;
   &:hover {
-    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
   }
 }
 
@@ -108,12 +108,12 @@ section {
     padding-left: 35px;
   }
   img {
-    width: 1450px;
+    width: 1550px;
     height: 450px;
-    -webkit-filter: grayscale(100%) blur(2.5px);
+    filter: grayscale(100%) blur(2.5px);
     &:hover {
       filter: none;
-      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease-in-out;
     }
   }
 }

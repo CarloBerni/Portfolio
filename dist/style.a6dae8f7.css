@@ -106,7 +106,7 @@ section:nth-child(3) {
   -webkit-transition: all 0.2s ease;
 }
 .github:hover {
-  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .linkedin {
@@ -118,7 +118,7 @@ section:nth-child(3) {
   -webkit-transition: all 0.2s ease;
 }
 .linkedin:hover {
-  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .section--horizontal {
@@ -158,11 +158,11 @@ section:nth-child(3) {
   padding-left: 35px;
 }
 .products__product img {
-  width: 1450px;
+  width: 1550px;
   height: 450px;
-  -webkit-filter: grayscale(100%) blur(2.5px);
+  filter: grayscale(100%) blur(2.5px);
 }
 .products__product img:hover {
   filter: none;
-  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
