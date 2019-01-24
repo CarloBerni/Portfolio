@@ -20,17 +20,8 @@ section {
   &:first-child {
     background: white;
   }
-  &:nth-child(2) {
-    background: pink;
-  }
   &:nth-child(3) {
     background: red;
-  }
-  &:nth-child(4) {
-    background: green;
-  }
-  &:nth-child(5) {
-    background: blue;
   }
 }
 .rellax {
@@ -70,9 +61,34 @@ section {
     -webkit-transform: scale(1.2);
   }
 }
-.canon,
-.SoComptoir,
-.ToTheTop {
+.section--horizontal {
+  height: 300vw;
+  .section__inner {
+    width: 300vw;
+    height: 100vh;
+    background: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.section--isFixed {
+  .section__inner {
+    position: fixed;
+  }
+}
+.section--isScrolled {
+  .section__inner {
+    bottom: 0;
+    top: auto;
+  }
+}
+
+.products {
+  display: flex;
+}
+
+.products__product {
   display: flex;
   flex-direction: row;
   margin-left: 2%;

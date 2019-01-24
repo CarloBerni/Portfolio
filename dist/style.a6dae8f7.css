@@ -69,17 +69,8 @@ section {
 section:first-child {
   background: white;
 }
-section:nth-child(2) {
-  background: pink;
-}
 section:nth-child(3) {
   background: red;
-}
-section:nth-child(4) {
-  background: green;
-}
-section:nth-child(5) {
-  background: blue;
 }
 
 .rellax {
@@ -130,30 +121,47 @@ section:nth-child(5) {
   -webkit-transform: scale(1.2);
 }
 
-.canon,
-.SoComptoir,
-.ToTheTop {
+.section--horizontal {
+  height: 300vw;
+}
+.section--horizontal .section__inner {
+  width: 300vw;
+  height: 100vh;
+  background: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section--isFixed .section__inner {
+  position: fixed;
+}
+
+.section--isScrolled .section__inner {
+  bottom: 0;
+  top: auto;
+}
+
+.products {
+  display: flex;
+}
+
+.products__product {
   display: flex;
   flex-direction: row;
   margin-left: 2%;
   margin-right: 2%;
 }
-.canon p,
-.SoComptoir p,
-.ToTheTop p {
+.products__product p {
   font-size: 22px;
   padding-left: 35px;
 }
-.canon img,
-.SoComptoir img,
-.ToTheTop img {
+.products__product img {
   width: 1450px;
   height: 450px;
   -webkit-filter: grayscale(100%) blur(2.5px);
 }
-.canon img:hover,
-.SoComptoir img:hover,
-.ToTheTop img:hover {
+.products__product img:hover {
   filter: none;
   -webkit-transition: all 0.3s ease;
 }
