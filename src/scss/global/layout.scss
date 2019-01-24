@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+
 @mixin logo-git-link {
   top: 2%;
   width: 60px;
@@ -6,9 +7,11 @@
   position: absolute;
   -webkit-transition: all 0.2s ease;
 }
+
 img {
   max-width: 100%;
 }
+
 section {
   min-height: 100vh;
   position: relative;
@@ -17,29 +20,35 @@ section {
   align-items: center;
   font-size: 50px;
   font-family: "Raleway", sans-serif;
+
   &:first-child {
     background: white;
   }
+
   &:nth-child(3) {
     background: red;
   }
 }
+
 .rellax {
   position: absolute;
   opacity: 1;
   top: 0;
+
   &:nth-child(1) {
     left: 5%;
     top: 40%;
     width: 400px;
     height: 400px;
   }
+
   &:nth-child(2) {
     left: 60%;
     top: 40%;
     width: 300px;
     height: 300px;
   }
+
   &:nth-child(3) {
     left: 32%;
     top: 65%;
@@ -47,22 +56,28 @@ section {
     height: 300px;
   }
 }
+
 .github {
   left: 90%;
   @include logo-git-link;
+
   &:hover {
     -webkit-transform: scale(1.2);
   }
 }
+
 .linkedin {
   left: 94%;
   @include logo-git-link;
+
   &:hover {
     -webkit-transform: scale(1.2);
   }
 }
+
 .section--horizontal {
   height: 300vw;
+
   .section__inner {
     width: 300vw;
     height: 100vh;
@@ -72,11 +87,13 @@ section {
     left: 0;
   }
 }
+
 .section--isFixed {
   .section__inner {
     position: fixed;
   }
 }
+
 .section--isScrolled {
   .section__inner {
     bottom: 0;
@@ -93,14 +110,17 @@ section {
   flex-direction: row;
   margin-left: 2%;
   margin-right: 2%;
+
   p {
     font-size: 22px;
     padding-left: 35px;
   }
+
   img {
     width: 1450px;
     height: 450px;
     -webkit-filter: grayscale(100%) blur(2.5px);
+
     &:hover {
       filter: none;
       -webkit-transition: all 0.3s ease;
