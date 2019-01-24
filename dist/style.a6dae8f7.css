@@ -148,9 +148,10 @@ section:nth-child(3) {
 
 .products__product {
   display: flex;
-  flex-direction: row;
-  margin-left: 2%;
+  margin-left: 1.5%;
   margin-right: 2%;
+  position: relative;
+  top: 225px;
 }
 .products__product p {
   font-size: 22px;
