@@ -64,6 +64,7 @@ section {
   justify-content: center;
   align-items: center;
   font-size: 50px;
+  overflow: hidden;
   font-family: "Raleway", sans-serif;
 }
 section:first-child {
@@ -164,5 +165,5 @@ section:nth-child(3) {
 }
 .products__product img:hover {
   filter: none;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
 }
