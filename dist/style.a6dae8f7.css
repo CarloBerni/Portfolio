@@ -71,7 +71,7 @@ section:first-child {
   background: gray;
 }
 section:nth-child(3) {
-  background: black;
+  background: gray;
 }
 
 .rellax {
