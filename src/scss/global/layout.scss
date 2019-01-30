@@ -111,7 +111,7 @@ section {
   img {
     width: 1550px;
     height: 450px;
-    filter: grayscale(100%) blur(2.5px);
+    filter: grayscale(100%) ;
     &:hover {
       filter: none;
       transition: all 0.3s ease;
