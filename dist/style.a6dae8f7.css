@@ -160,8 +160,8 @@ section:nth-child(3) {
 }
 .products__product p::first-letter {
   color: red;
-  font-size: 100px;
-  line-height: 3px;
+  font-size: 60px;
+  line-height: 45px;
   margin-right: 5px;
 }
 .products__product img {
