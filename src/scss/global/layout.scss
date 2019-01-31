@@ -108,6 +108,12 @@ section {
     font-size: 22px;
     padding-left: 35px;
   }
+  p::first-letter {
+    color: red;
+    font-size: 100px;
+    line-height: 3px;
+    margin-right: 5px;
+  }
   img {
     width: 1550px;
     height: 450px;
@@ -118,3 +124,5 @@ section {
     }
   }
 }
+
+

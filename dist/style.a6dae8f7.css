@@ -7459,6 +7459,12 @@ section:nth-child(3) {
   font-size: 22px;
   padding-left: 35px;
 }
+.products__product p::first-letter {
+  color: red;
+  font-size: 100px;
+  line-height: 3px;
+  margin-right: 5px;
+}
 .products__product img {
   width: 1550px;
   height: 450px;

@@ -71,3 +71,7 @@ function setTranslateX(element, progression) {
   var transform = (-1 * toMove * progression) + 'px';
   element.style.transform = 'translateX(' + transform + ')';
 }
+
+
+
+
