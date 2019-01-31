@@ -24,8 +24,6 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "bootstrap": "^3.4.0",
-    "bootstrap-sass": "^3.4.0",
     "csshake": "^1.5.3",
     "parcel": "^1.11.0",
     "rellax": "^1.7.2"
