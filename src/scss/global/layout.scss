@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url('https://fonts.googleapis.com/css?family=Kanit:200,200i,400,400i,600,600i,700,700i,800,800i');
 
 @mixin logo-git-link {
   top: 2%;
@@ -19,12 +19,11 @@ img {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  font-family: "Raleway", sans-serif;
   &:first-child {
     background: darkgray;
   }
   &:nth-child(3) {
-    background:darkgray;
+    background: darkgray;
   }
 }
 
@@ -32,8 +31,6 @@ img {
   position: absolute;
   opacity: 1;
   top: 0;
-  text-transform: uppercase;
-  font-size: 50px;
   &:nth-child(1) {
     left: 5%;
     top: 40%;
@@ -108,8 +105,9 @@ img {
   position: relative;
   top: 225px;
   p {
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 35px;
+    font-style: normal;
   }
   p::first-letter {
     color: red;
@@ -128,7 +126,13 @@ img {
   }
 }
 
+.section--start {
+  font-family: 'Kanit', sans-serif;
+  font-size: 100px;
+  font-style: italic;
+  text-transform: uppercase;
 
+}
 
 
 

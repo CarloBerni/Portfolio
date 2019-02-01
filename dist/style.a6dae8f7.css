@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Kanit:200,200i,400,400i,600,600i,700,700i,800,800i");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,7 +64,6 @@ img {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  font-family: "Raleway", sans-serif;
 }
 .section:first-child {
   background: darkgray;
@@ -77,8 +76,6 @@ img {
   position: absolute;
   opacity: 1;
   top: 0;
-  text-transform: uppercase;
-  font-size: 50px;
 }
 .rellax:nth-child(1) {
   left: 5%;
@@ -158,8 +155,9 @@ img {
   top: 225px;
 }
 .products__product p {
-  font-size: 22px;
+  font-size: 20px;
   padding-left: 35px;
+  font-style: normal;
 }
 .products__product p::first-letter {
   color: red;
@@ -175,4 +173,11 @@ img {
 .products__product img:hover {
   filter: none;
   transition: all 0.3s ease;
+}
+
+.section--start {
+  font-family: "Kanit", sans-serif;
+  font-size: 100px;
+  font-style: italic;
+  text-transform: uppercase;
 }
