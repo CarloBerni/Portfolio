@@ -57,45 +57,48 @@ img {
   max-width: 100%;
 }
 
-section {
+.section {
   min-height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
   overflow: hidden;
   font-family: "Raleway", sans-serif;
 }
-section:first-child {
-  background: gray;
+.section:first-child {
+  background: darkgray;
 }
-section:nth-child(3) {
-  background: gray;
+.section:nth-child(3) {
+  background: darkgray;
 }
 
 .rellax {
   position: absolute;
   opacity: 1;
   top: 0;
+  text-transform: uppercase;
+  font-size: 50px;
 }
 .rellax:nth-child(1) {
   left: 5%;
   top: 40%;
-  width: 400px;
-  height: 400px;
 }
 .rellax:nth-child(2) {
-  left: 60%;
+  left: 10%;
   top: 40%;
-  width: 300px;
-  height: 300px;
 }
 .rellax:nth-child(3) {
-  left: 32%;
-  top: 65%;
-  width: 300px;
-  height: 300px;
+  left: 15%;
+  top: 40%;
+}
+.rellax:nth-child(4) {
+  left: 20%;
+  top: 40%;
+}
+.rellax:nth-child(5) {
+  left: 25%;
+  top: 40%;
 }
 
 .github {
@@ -128,7 +131,7 @@ section:nth-child(3) {
 .section--horizontal .section__inner {
   width: 300vw;
   height: 100vh;
-  background: white;
+  background: darkgray;
   position: absolute;
   top: 0;
   left: 0;
