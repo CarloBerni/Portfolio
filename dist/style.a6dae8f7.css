@@ -53,10 +53,6 @@ table {
   border-spacing: 0;
 }
 
-img {
-  max-width: 100%;
-}
-
 .section {
   min-height: 100vh;
   position: relative;
@@ -153,6 +149,7 @@ img {
   margin-right: 2%;
   position: relative;
   top: 225px;
+  width: 100vw;
 }
 .products__product p {
   font-size: 20px;
@@ -166,7 +163,7 @@ img {
   margin-right: 5px;
 }
 .products__product img {
-  width: 1550px;
+  width: 700px;
   height: 450px;
   filter: grayscale(100%);
 }
