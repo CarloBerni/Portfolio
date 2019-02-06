@@ -459,8 +459,8 @@ var _sub = _interopRequireDefault(require("./sub"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 console.log(_sub.default.double(12));
-console.log(_rellax.default);
-var Rellax = new _rellax.default(".rellax", {}); // Get all horizontal scroll element
+console.log(rellax);
+var rellax = new _rellax.default(".rellax", {}); // Get all horizontal scroll element
 
 var horizontals = document.querySelectorAll('.section--horizontal'); // For each horizontal scroll element, apply the effect
 
@@ -543,7 +543,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50830" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53671" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

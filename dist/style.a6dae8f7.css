@@ -62,10 +62,10 @@ table {
   overflow: hidden;
 }
 .section:first-child {
-  background: linear-gradient(#9198e5, #e66465);
+  background: linear-gradient(red, yellow);
 }
 .section:nth-child(3) {
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(yellow, red);
 }
 
 .rellax {
@@ -124,7 +124,7 @@ table {
 .section--horizontal .section__inner {
   width: 300vw;
   height: 100vh;
-  background: darkgray;
+  background: linear-gradient(to right, red, yellow);
   position: absolute;
   top: 0;
   left: 0;
@@ -172,9 +172,12 @@ table {
   transition: all 0.3s ease;
 }
 
-.section--start {
+.section--start p {
   font-family: "Kanit", sans-serif;
   font-size: 80px;
   font-style: italic;
   text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: url("sam-mgrdichian-390682-unsplash-min.ac8be3ea.jpg");
 }
