@@ -17,13 +17,13 @@
   align-items: center;
   overflow: hidden;
   &:first-child {
+    background: linear-gradient(white 55%, #FEAF1E);
+  }
+  &:nth-child(3) {
     background: url("../img/paper.jpg");
     height: 100vh;
     width: 100%;
     background-size: 100% 100%;
-  }
-  &:nth-child(3) {
-    background: linear-gradient(yellow, red);
   }
 }
 
@@ -74,7 +74,7 @@
   .section__inner {
     width: 300vw;
     height: 100vh;
-    background: linear-gradient(to right, red , yellow);
+    background: #FEAF1E;
     position: absolute;
     top: 0;
     left: 0;
@@ -133,13 +133,6 @@
     font-size: 80px;
     font-style: italic;
     text-transform: uppercase;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-image: url("../img/sam-mgrdichian-390682-unsplash-min.jpg");
-    transform: translate(-50%, -50%);
-  }
-  p:hover {
-    background-size: 80% 80%;
   }
 }
 
