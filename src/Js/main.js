@@ -5,7 +5,7 @@ console.log(helpers.double(12));
 console.log(rellax);
 
 
-var rellax = new Rellax(".rellax", {});
+var rellax = new Rellax(".section__rellax", {});
 
 
 

@@ -71,29 +71,29 @@ table {
   background-size: 100% 100%;
 }
 
-.rellax {
+.section__rellax {
   position: absolute;
   opacity: 1;
   top: 0;
 }
-.rellax:nth-child(1) {
+.section__rellax:nth-child(1) {
   left: 5%;
   top: 40%;
 }
-.rellax:nth-child(2) {
-  left: 8.8%;
+.section__rellax:nth-child(2) {
+  left: 6.5%;
   top: 40%;
 }
-.rellax:nth-child(3) {
-  left: 13%;
+.section__rellax:nth-child(3) {
+  left: 8%;
   top: 40%;
 }
-.rellax:nth-child(4) {
-  left: 17%;
+.section__rellax:nth-child(4) {
+  left: 9%;
   top: 40%;
 }
-.rellax:nth-child(5) {
-  left: 20%;
+.section__rellax:nth-child(5) {
+  left: 10%;
   top: 40%;
 }
 
@@ -177,7 +177,9 @@ table {
 
 .section--start p {
   font-family: "Kanit", sans-serif;
-  font-size: 80px;
   font-style: italic;
-  text-transform: uppercase;
+}
+
+.section__rellax {
+  font-size: 30px;
 }
