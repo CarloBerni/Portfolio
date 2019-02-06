@@ -133,6 +133,10 @@
     color: transparent;
     -webkit-background-clip: text;
     background-image: url("../img/sam-mgrdichian-390682-unsplash-min.jpg");
+    transform: translate(-50%, -50%);
+  }
+  p:hover {
+    background-size: 80% 80%;
   }
 }
 

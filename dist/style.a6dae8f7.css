@@ -180,4 +180,8 @@ table {
   color: transparent;
   -webkit-background-clip: text;
   background-image: url("sam-mgrdichian-390682-unsplash-min.ac8be3ea.jpg");
+  transform: translate(-50%, -50%);
+}
+.section--start p:hover {
+  background-size: 80% 80%;
 }
