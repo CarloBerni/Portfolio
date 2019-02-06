@@ -62,10 +62,10 @@ table {
   overflow: hidden;
 }
 .section:first-child {
-  background: darkgray;
+  background: linear-gradient(#9198e5, #e66465);
 }
 .section:nth-child(3) {
-  background: darkgray;
+  background: linear-gradient(#e66465, #9198e5);
 }
 
 .rellax {
@@ -78,19 +78,19 @@ table {
   top: 40%;
 }
 .rellax:nth-child(2) {
-  left: 10%;
+  left: 8.8%;
   top: 40%;
 }
 .rellax:nth-child(3) {
-  left: 15%;
+  left: 13%;
   top: 40%;
 }
 .rellax:nth-child(4) {
-  left: 20%;
+  left: 17%;
   top: 40%;
 }
 .rellax:nth-child(5) {
-  left: 25%;
+  left: 20%;
   top: 40%;
 }
 
@@ -174,7 +174,7 @@ table {
 
 .section--start {
   font-family: "Kanit", sans-serif;
-  font-size: 100px;
+  font-size: 80px;
   font-style: italic;
   text-transform: uppercase;
 }
