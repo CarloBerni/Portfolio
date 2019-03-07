@@ -61,6 +61,9 @@ table {
   background-size: 100% 100%;
   overflow: hidden;
 }
+.section .test {
+  position: fixed;
+}
 
 .section__rellax {
   position: absolute;
@@ -175,8 +178,4 @@ table {
 .section__rellax {
   font-size: 60px;
   color: black;
-}
-
-.test {
-  position: fixed;
 }
