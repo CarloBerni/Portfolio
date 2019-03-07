@@ -59,6 +59,7 @@ table {
   height: 100vh;
   width: 100%;
   background-size: 100% 100%;
+  overflow: hidden;
 }
 .section:nth-child(3) {
   background: white;
@@ -177,5 +178,9 @@ table {
 
 .section__rellax {
   font-size: 60px;
-  color: white;
+  color: black;
+}
+
+.test {
+  position: fixed;
 }
