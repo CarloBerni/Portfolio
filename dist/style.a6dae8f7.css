@@ -56,15 +56,12 @@ table {
 .section {
   min-height: 100vh;
   position: relative;
-}
-.section:first-child {
-  background: white;
-}
-.section:nth-child(3) {
-  background: white;
   height: 100vh;
   width: 100%;
   background-size: 100% 100%;
+}
+.section:nth-child(3) {
+  background: white;
 }
 
 .section__rellax {
