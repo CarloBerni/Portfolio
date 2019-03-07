@@ -62,7 +62,7 @@ table {
   overflow: hidden;
 }
 .section:first-child {
-  background: linear-gradient(white 55%, #FEAF1E);
+  background: white;
 }
 .section:nth-child(3) {
   background: url("paper.899f625e.jpg");
@@ -127,7 +127,7 @@ table {
 .section--horizontal .section__inner {
   width: 300vw;
   height: 100vh;
-  background: #FEAF1E;
+  background: white;
   position: absolute;
   top: 0;
   left: 0;
