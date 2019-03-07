@@ -36,19 +36,19 @@
     top: 40%;
   }
   &:nth-child(2) {
-    left: 6.5%;
+    left: 7.5%;
     top: 40%;
   }
   &:nth-child(3) {
-    left: 8%;
+    left: 9.8%;
     top: 40%;
   }
   &:nth-child(4) {
-    left: 9%;
+    left: 11.5%;
     top: 40%;
   }
   &:nth-child(5) {
-    left: 10%;
+    left: 13%;
     top: 40%;
   }
 }
@@ -108,13 +108,15 @@
   p {
     font-size: 20px;
     padding-left: 35px;
-    font-style: normal;
+    font-style: italic;
+    font-family: 'Kanit', sans-serif;
   }
   p::first-letter {
     color: red;
     font-size: 60px;
     line-height: 45px;
     margin-right: 5px;
+    font-weight: bolder;
   }
   img {
     width: 700px;
@@ -131,10 +133,11 @@
   p {
     font-family: 'Kanit', sans-serif;
     font-style: italic;
+    font-weight: bold;
   }
 }
 .section__rellax {
-  font-size: 30px;
+  font-size: 60px;
 }
 
 
