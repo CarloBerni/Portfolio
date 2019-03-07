@@ -520,7 +520,7 @@ function setTranslateX(element, progression) {
 
 VANTA.WAVES({
   el: "#vantajs",
-  color: 0x0,
+  color: 0x989696,
   shininess: 50.00,
   waveHeight: 20.00,
   zoom: 0.97
@@ -552,7 +552,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52433" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52775" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

@@ -80,7 +80,7 @@ function setTranslateX(element, progression) {
 
 VANTA.WAVES({
   el: "#vantajs",
-  color: 0x0,
+  color: 0x989696,
   shininess: 50.00,
   waveHeight: 20.00,
   zoom: 0.97
