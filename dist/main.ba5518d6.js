@@ -523,7 +523,7 @@ VANTA.WAVES({
   color: 0x989696,
   shininess: 50.00,
   waveHeight: 20.00,
-  zoom: 0.97
+  zoom: 0.95
 });
 },{"rellax":"../node_modules/rellax/rellax.js","./sub":"Js/sub.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -552,7 +552,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51032" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52225" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
