@@ -61,9 +61,6 @@ table {
   background-size: 100% 100%;
   overflow: hidden;
 }
-.section:nth-child(3) {
-  background: white;
-}
 
 .section__rellax {
   position: absolute;
@@ -121,7 +118,6 @@ table {
 .section--horizontal .section__inner {
   width: 300vw;
   height: 100vh;
-  background: white;
   position: absolute;
   top: 0;
   left: 0;
