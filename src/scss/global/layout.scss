@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit:200,200i,400,400i,600,600i,700,700i,800,800i');
 
+
+
+
 @mixin logo-git-link {
   top: 2%;
   width: 60px;
@@ -16,7 +19,7 @@
   width: 100%;
   background-size: 100% 100%;
   overflow: hidden;
-  .test {
+  .background {
   position: fixed;
 }
 
@@ -127,6 +130,7 @@
   p {
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
+    
   }
 }
 .section__rellax {
