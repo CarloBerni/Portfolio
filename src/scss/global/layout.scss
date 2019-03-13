@@ -23,7 +23,12 @@
   position: fixed;
   }
 }
+.section__text {
+  position: absolute;
+  top: 50vw;
+  right: 50vh;
 
+}
 .section__rellax {
   position: absolute;
   opacity: 1;
@@ -47,6 +52,31 @@
   &:nth-child(5) {
     left: 13%;
     top: 40%;
+  }
+  &:nth-child(6) {
+    left: 17%;
+    top: 40%;
+    text-transform: uppercase;
+  }
+  &:nth-child(7) {
+    left: 19.7%;
+    top: 40%;
+    text-transform: uppercase;
+  }
+  &:nth-child(8) {
+    left: 22%;
+    top: 40%;
+    text-transform: uppercase;
+  }
+  &:nth-child(9) {
+    left: 24.5%;
+    top: 40%;
+    text-transform: uppercase;
+  }
+  &:nth-child(10) {
+    left: 27.3%;
+    top: 40%;
+    text-transform: uppercase;
   }
 }
 
@@ -125,17 +155,12 @@
   }
 }
 
-.section--start {
-  p {
+.section__rellax--name {
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
-    
-  }
+    font-size: 60px;
 }
-.section__rellax {
-  font-size: 60px;
-  color: black;
-}
+
 
 
 
