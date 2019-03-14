@@ -29,14 +29,15 @@
   right: 50vh;
   font-family: 'Kanit', sans-serif;
   font-size: 30px;
+  color: white;
 }
 
 .picture {
   position: absolute;
   width: 300px;
   height: 200px;
-  top: 30vh;
-  left: 70vw;
+  top: 41vh;
+  left: 60vw;
 }
 
 
@@ -147,6 +148,7 @@
     padding-left: 35px;
     font-style: italic;
     font-family: 'Kanit', sans-serif;
+    color: white;
   }
   p::first-letter {
     color: red;
@@ -170,6 +172,7 @@
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
     font-size: 60px;
+    color: white;
 }
 
 
