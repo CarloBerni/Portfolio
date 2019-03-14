@@ -189,28 +189,26 @@ table {
   top: 225px;
   width: 100vw;
 }
-.products__content p {
+.products__content .products__content--text {
   font-size: 20px;
   padding-left: 35px;
   font-style: italic;
   font-family: "Kanit", sans-serif;
   color: white;
 }
-.products__content p::first-letter {
+.products__content .products__content--text::first-letter {
   color: red;
   font-size: 60px;
   line-height: 45px;
-  margin-right: 5px;
-  font-weight: bolder;
+  margin-right: 2px;
 }
 .products__content img {
   width: 700px;
   height: 450px;
-  filter: grayscale(100%) blur(1.5px);
 }
 .products__content img:hover {
-  filter: none;
-  transition: all 0.3s ease;
+  filter: grayscale(100%) blur(1.5px);
+  transition: all 0.2s ease;
 }
 
 .section__rellax--name {
@@ -220,24 +218,28 @@ table {
   color: white;
 }
 
-.effect-marley p {
+.effect__hover--text {
   position: absolute;
   right: 30px;
   left: 30px;
   padding: 10px 0;
   bottom: 30px;
-  line-height: 1.5;
+  font-family: "Kanit", sans-serif;
+  color: white;
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
-}
-
-.effect-marley p {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
+.effect__hover--text::first-letter {
+  color: red;
+  font-size: 60px;
+  line-height: 45px;
+  margin-right: 2px;
+}
 
-.effect-marley:hover p {
+.effect__hover:hover .effect__hover--text {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);

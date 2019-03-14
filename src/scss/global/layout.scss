@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Kanit:200,200i,400,400i,600,600i,700,700i,800,800i");
 
-@mixin logo-git-link {
+@mixin Logo-Git-Link {
   top: 2%;
   width: 60px;
   height: 60px;
   position: absolute;
   -webkit-transition: all 0.2s ease;
+}
+@mixin FirstLetter {
+  color: red;
+  font-size: 60px;
+  line-height: 45px;
+  margin-right: 2px;
 }
 
 .section {
@@ -89,7 +95,7 @@
 
 .github {
   left: 90%;
-  @include logo-git-link;
+  @include Logo-Git-Link;
   &:hover {
     transform: scale(1.2);
   }
@@ -97,7 +103,7 @@
 
 .linkedin {
   left: 94%;
-  @include logo-git-link;
+  @include Logo-Git-Link;
   &:hover {
     transform: scale(1.2);
   }
@@ -138,27 +144,22 @@
   position: relative;
   top: 225px;
   width: 100vw;
-  p {
+  .products__content--text {
     font-size: 20px;
     padding-left: 35px;
     font-style: italic;
     font-family: "Kanit", sans-serif;
     color: white;
-  }
-  p::first-letter {
-    color: red;
-    font-size: 60px;
-    line-height: 45px;
-    margin-right: 5px;
-    font-weight: bolder;
+    &::first-letter {
+      @include FirstLetter;
+    }
   }
   img {
     width: 700px;
     height: 450px;
-    filter: grayscale(100%) blur(1.5px);
     &:hover {
-      filter: none;
-      transition: all 0.3s ease;
+      filter: grayscale(100%) blur(1.5px);
+      transition: all 0.2s ease;
     }
   }
 }
@@ -170,26 +171,25 @@
   color: white;
 }
 
-  
-  .effect-marley p {
-    position: absolute;
-    right: 30px;
-    left: 30px;
-    padding: 10px 0;
-    bottom: 30px;
-    line-height: 1.5;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
+.effect__hover--text {
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  padding: 10px 0;
+  bottom: 30px;
+  font-family: "Kanit", sans-serif;
+  color: white;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  &::first-letter {
+    @include FirstLetter;
   }
-  
-  .effect-marley p {
-    opacity: 0;
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-  }
-  .effect-marley:hover p {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  
+}
+.effect__hover:hover .effect__hover--text {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
