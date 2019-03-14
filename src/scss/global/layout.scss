@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kanit:200,200i,400,400i,600,600i,700,700i,800,800i');
-
-
-
+@import url("https://fonts.googleapis.com/css?family=Kanit:200,200i,400,400i,600,600i,700,700i,800,800i");
 
 @mixin logo-git-link {
   top: 2%;
@@ -11,7 +8,6 @@
   -webkit-transition: all 0.2s ease;
 }
 
-
 .section {
   min-height: 100vh;
   position: relative;
@@ -19,15 +15,15 @@
   width: 100%;
   background-size: 100% 100%;
   overflow: hidden;
-    .background {
-  position: fixed;
+  .background {
+    position: fixed;
   }
 }
 .section__text {
   position: absolute;
   top: 43%;
   right: 50vh;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 30px;
   color: white;
 }
@@ -39,7 +35,6 @@
   top: 41vh;
   left: 60vw;
 }
-
 
 .section__rellax {
   position: absolute;
@@ -147,7 +142,7 @@
     font-size: 20px;
     padding-left: 35px;
     font-style: italic;
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
     color: white;
   }
   p::first-letter {
@@ -160,7 +155,7 @@
   img {
     width: 700px;
     height: 450px;
-    filter: grayscale(100%) ;
+    filter: grayscale(100%);
     &:hover {
       filter: none;
       transition: all 0.3s ease;
@@ -169,14 +164,59 @@
 }
 
 .section__rellax--name {
-    font-family: 'Kanit', sans-serif;
-    font-weight: bold;
-    font-size: 60px;
-    color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
 }
 
-
-
-
-
-
+  figure.effect-marley figcaption {
+    text-align: right;
+  }
+  figure.effect-marley h2,
+  figure.effect-marley p {
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    padding: 10px 0;
+  }
+  figure.effect-marley p {
+    bottom: 30px;
+    line-height: 1.5;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  figure.effect-marley h2 {
+    top: 30px;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+  figure.effect-marley:hover h2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  figure.effect-marley h2::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    content: "";
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+  figure.effect-marley h2::after,
+  figure.effect-marley p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+  }
+  figure.effect-marley:hover h2::after,
+  figure.effect-marley:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
