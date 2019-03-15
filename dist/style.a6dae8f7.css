@@ -212,11 +212,9 @@ table {
 }
 .products__content .effect__hover--text {
   position: absolute;
-  width: 220px;
+  width: 289px;
   right: 30px;
   left: 30px;
-  padding: 10px 0;
-  bottom: 0px;
   font-family: "Kanit", sans-serif;
   color: white;
   -webkit-transform: translate3d(0, 100%, 0);
