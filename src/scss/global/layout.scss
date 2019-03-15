@@ -14,6 +14,40 @@
   margin-right: 2px;
 }
 
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  .progress-container {
+    width: 100%;
+    height: 5px;
+    background: transparent;
+  }
+  .progress-bar {
+    height: 4px;
+    background: #FFFFFF;
+    width: 0%;
+  }
+}
+
+.github {
+  left: 85%;
+  @include Logo-Git-Link;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.linkedin {
+  left: 90%;
+  @include Logo-Git-Link;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+
 .section {
   min-height: 100vh;
   position: relative;
@@ -93,21 +127,7 @@
   }
 }
 
-.github {
-  left: 85%;
-  @include Logo-Git-Link;
-  &:hover {
-    transform: scale(1.2);
-  }
-}
 
-.linkedin {
-  left: 90%;
-  @include Logo-Git-Link;
-  &:hover {
-    transform: scale(1.2);
-  }
-}
 
 .section--horizontal {
   height: 300vw;
