@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Kanit:200,200i,400,400i,600,600i,700,700i,800,800i");
 
-@mixin Logo-Git-Link {
-  top: 2%;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  -webkit-transition: all 0.2s ease;
-}
 @mixin FirstLetter {
   color: red;
   font-size: 60px;
@@ -34,14 +27,22 @@
 
 .github {
   left: 85%;
-  @include Logo-Git-Link;
+  top: 2%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
   &:hover {
     transform: scale(1.1);
   }
 }
 .linkedin {
   left: 90%;
-  @include Logo-Git-Link;
+  top: 2%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
   &:hover {
     transform: scale(1.1);
   }
