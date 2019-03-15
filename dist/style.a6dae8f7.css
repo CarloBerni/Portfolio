@@ -134,7 +134,7 @@ table {
 }
 
 .github {
-  left: 90%;
+  left: 85%;
   top: 2%;
   width: 60px;
   height: 60px;
@@ -146,7 +146,7 @@ table {
 }
 
 .linkedin {
-  left: 94%;
+  left: 90%;
   top: 2%;
   width: 60px;
   height: 60px;
@@ -207,23 +207,16 @@ table {
   height: 450px;
 }
 .products__content img:hover {
-  filter: grayscale(100%) blur(1.5px);
+  filter: blur(5px);
   transition: all 0.2s ease;
 }
-
-.section__rellax--name {
-  font-family: "Kanit", sans-serif;
-  font-weight: bold;
-  font-size: 60px;
-  color: white;
-}
-
-.effect__hover--text {
+.products__content .effect__hover--text {
   position: absolute;
+  width: 220px;
   right: 30px;
   left: 30px;
   padding: 10px 0;
-  bottom: 30px;
+  bottom: 0px;
   font-family: "Kanit", sans-serif;
   color: white;
   -webkit-transform: translate3d(0, 100%, 0);
@@ -232,15 +225,21 @@ table {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
-.effect__hover--text::first-letter {
+.products__content .effect__hover--text::first-letter {
   color: red;
   font-size: 60px;
   line-height: 45px;
   margin-right: 2px;
 }
-
-.effect__hover:hover .effect__hover--text {
+.products__content .effect__hover:hover .effect__hover--text {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+
+.section__rellax--name {
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
 }
