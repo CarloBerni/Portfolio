@@ -69,27 +69,29 @@ table {
   width: 0%;
 }
 
-.github {
-  left: 90%;
-  top: 2%;
+.logo__navbar {
+  position: fixed;
+  top: 3vw;
+  right: 1vh;
+}
+.logo__navbar a {
+  display: block;
+  padding: 5px;
+}
+.logo__navbar .github {
   width: 50px;
   height: 50px;
-  position: absolute;
   -webkit-transition: all 0.2s ease;
 }
-.github:hover {
+.logo__navbar .github:hover {
   transform: scale(1.1);
 }
-
-.linkedin {
-  left: 95%;
-  top: 2%;
+.logo__navbar .linkedin {
   width: 50px;
   height: 50px;
-  position: absolute;
   -webkit-transition: all 0.2s ease;
 }
-.linkedin:hover {
+.logo__navbar .linkedin:hover {
   transform: scale(1.1);
 }
 
