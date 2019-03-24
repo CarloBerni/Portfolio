@@ -65,7 +65,7 @@
 }
 .section__text {
   position: absolute;
-  top: 43%;
+  top: 30%;
   right: 50vh;
   font-family: "Kanit", sans-serif;
   font-size: 30px;
@@ -84,6 +84,13 @@
   position: absolute;
   opacity: 1;
   top: 0;
+  .section__rellax--name {
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-shadow: -0.035em 0 0 #F22613,  0.035em 0 0 #00FFFF;
+  }
   &:nth-child(1) {
     left: 5%;
     top: 40%;
@@ -209,11 +216,6 @@
   }
 }
 
-.section__rellax--name {
-  font-family: "Kanit", sans-serif;
-  font-weight: bold;
-  font-size: 60px;
-  color: white;
-}
+
 
 

@@ -109,7 +109,7 @@ table {
 
 .section__text {
   position: absolute;
-  top: 43%;
+  top: 30%;
   right: 50vh;
   font-family: "Kanit", sans-serif;
   font-size: 30px;
@@ -128,6 +128,13 @@ table {
   position: absolute;
   opacity: 1;
   top: 0;
+}
+.section__rellax .section__rellax--name {
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: #FFFFFF;
+  text-shadow: -0.035em 0 0 #F22613, 0.035em 0 0 #00FFFF;
 }
 .section__rellax:nth-child(1) {
   left: 5%;
@@ -251,11 +258,4 @@ table {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-}
-
-.section__rellax--name {
-  font-family: "Kanit", sans-serif;
-  font-weight: bold;
-  font-size: 60px;
-  color: white;
 }
