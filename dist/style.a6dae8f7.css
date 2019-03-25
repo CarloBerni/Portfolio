@@ -261,6 +261,15 @@ table {
 }
 
 .Menu-list {
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-kerning: normal;
+  -webkit-text-size-adjust: 100%;
+}
+
+.Menu-list {
   font-size: 2.5rem;
   line-height: 1.2;
   text-transform: uppercase;

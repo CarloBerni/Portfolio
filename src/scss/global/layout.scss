@@ -238,6 +238,7 @@ $split-color:     rgb(255, 255, 255);
 
 // === Menu <ul> =====
 .Menu-list {
+  @extend %font-settings;
   font-size: $font-size;
   line-height: 1.2;
   text-transform: uppercase;
