@@ -85,7 +85,7 @@ VANTA.WAVES({
   waveSpeed: 0.50,
   zoom: 0.81
 }) 
-
+ 
 
 
 // When the user scrolls the page, execute myFunction 

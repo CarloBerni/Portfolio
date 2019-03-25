@@ -260,7 +260,7 @@ table {
   transform: translate3d(0, 0, 0);
 }
 
-.Menu-list {
+.Menu__list {
   font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -269,7 +269,7 @@ table {
   -webkit-text-size-adjust: 100%;
 }
 
-.Menu-list {
+.Menu__list {
   font-size: 2.5rem;
   line-height: 1.2;
   text-transform: uppercase;
@@ -279,12 +279,12 @@ table {
   align-items: center;
 }
 
-.Menu-list-item {
+.Menu__list--item {
   position: relative;
   color: transparent;
   cursor: pointer;
 }
-.Menu-list-item::before {
+.Menu__list--item::before {
   content: "";
   display: block;
   position: absolute;
@@ -321,16 +321,16 @@ table {
   transform: translateY(-49%);
 }
 
-.Menu-list-item:hover .Mask,
-.Menu-list-item:active .Mask {
+.Menu__list--item:hover .Mask,
+.Menu__list--item:active .Mask {
   color: #FFF;
   transform: skewX(12deg) translateX(5px);
 }
-.Menu-list-item:hover .Mask + .Mask,
-.Menu-list-item:active .Mask + .Mask {
+.Menu__list--item:hover .Mask + .Mask,
+.Menu__list--item:active .Mask + .Mask {
   transform: skewX(12deg) translateX(-5px);
 }
-.Menu-list-item:hover::before,
-.Menu-list-item:active::before {
+.Menu__list--item:hover::before,
+.Menu__list--item:active::before {
   transform: scale(1);
 }

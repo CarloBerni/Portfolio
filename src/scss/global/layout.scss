@@ -219,11 +219,11 @@
 
 
 // === Variables =====
-$perspective:     60rem;
-$font-size:       2.5rem;
-$split-position:  49%;
+$perspective: 60rem;
+$font-size: 2.5rem;
+$split-position: 49%;
 $split-thickness: 4px;
-$split-color:     rgb(255, 255, 255);
+$split-color: rgb(255, 255, 255);
 
 // === Settings =====
 %font-settings {
@@ -235,9 +235,7 @@ $split-color:     rgb(255, 255, 255);
   -webkit-text-size-adjust: 100%;
 }
 
-
-// === Menu <ul> =====
-.Menu-list {
+.Menu__list {
   @extend %font-settings;
   font-size: $font-size;
   line-height: 1.2;
@@ -248,13 +246,10 @@ $split-color:     rgb(255, 255, 255);
   align-items: center;
 }
 
-// === Menu item =====
-.Menu-list-item {
+.Menu__list--item {
   position: relative;
   color: transparent;
   cursor: pointer;
-  
-  // === Split Line =====
   &::before {
     content: '';
     display: block;
@@ -285,7 +280,6 @@ $split-color:     rgb(255, 255, 255);
   span { display: block; }
 }
 
-// === Bottom mask specific =====
 .Mask + .Mask {
   top: $split-position - 0.1;
   height: 100 - $split-position + 0.1;
@@ -293,9 +287,8 @@ $split-color:     rgb(255, 255, 255);
   span { transform: translateY(-$split-position); }
 }
 
-// === Where the fun stuff happens =====
-.Menu-list-item:hover,
-.Menu-list-item:active {
+.Menu__list--item:hover,
+.Menu__list--item:active {
   .Mask { color: #FFF; transform: skewX(12deg) translateX(5px); }
   .Mask + .Mask { transform: skewX(12deg) translateX(-5px); }
   &::before { transform: scale(1); }
