@@ -221,7 +221,7 @@
 
 // === Variables =====
 $perspective: 60rem;
-$font-size: 2.5rem;
+$font-size: 2rem;
 $split-position: 49%;
 $split-thickness: 4px;
 $split-color: rgb(255, 255, 255);
@@ -293,7 +293,8 @@ $split-color: rgb(255, 255, 255);
 .Menu__list--item:hover,
 .Menu__list--item:active {
   .Mask { 
-    color: #FFF; transform: skewX(12deg) translateX(5px); 
+    color: #FFF; 
+    transform: skewX(12deg) translateX(5px);
   }
   .Mask + .Mask { 
     transform: skewX(12deg) translateX(-5px); 
