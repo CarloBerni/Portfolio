@@ -27,6 +27,7 @@
   position: fixed;
   top: 3vw;
   right: 1vh;
+  z-index: 1;
   a {
   display: block;
   padding: 5px;
@@ -276,20 +277,28 @@ $split-color: rgb(255, 255, 255);
   top: 0;
   height: $split-position;
   transition: all .8s cubic-bezier(.16,1.08,.38,.98);
-  
-  span { display: block; }
+  span { 
+    display: block;
+   }
 }
 
 .Mask + .Mask {
   top: $split-position - 0.1;
   height: 100 - $split-position + 0.1;
-  
-  span { transform: translateY(-$split-position); }
+  span { 
+    transform: translateY(-$split-position); 
+  }
 }
 
 .Menu__list--item:hover,
 .Menu__list--item:active {
-  .Mask { color: #FFF; transform: skewX(12deg) translateX(5px); }
-  .Mask + .Mask { transform: skewX(12deg) translateX(-5px); }
-  &::before { transform: scale(1); }
+  .Mask { 
+    color: #FFF; transform: skewX(12deg) translateX(5px); 
+  }
+  .Mask + .Mask { 
+    transform: skewX(12deg) translateX(-5px); 
+  }
+  &::before { 
+    transform: scale(1); 
+  }
 }

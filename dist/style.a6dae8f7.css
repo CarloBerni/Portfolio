@@ -73,6 +73,7 @@ table {
   position: fixed;
   top: 3vw;
   right: 1vh;
+  z-index: 1;
 }
 .logo__navbar a {
   display: block;
