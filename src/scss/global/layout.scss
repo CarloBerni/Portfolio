@@ -6,7 +6,10 @@
   line-height: 45px;
   margin-right: 2px;
 }
-
+// === Settings =====
+%font-settings {
+  font-family: "Kanit", sans-serif;
+}
 
 .header {
   position: fixed;
@@ -67,7 +70,7 @@
   position: absolute;
   top: 30%;
   right: 50vh;
-  font-family: "Kanit", sans-serif;
+  @extend %font-settings;
   font-size: 30px;
   color: white;
 }
@@ -85,7 +88,7 @@
   opacity: 1;
   top: 0;
   .section__rellax--name {
-    font-family: "Kanit", sans-serif;
+    @extend %font-settings;
     font-weight: bold;
     font-size: 60px;
     color: #FFFFFF;
@@ -179,7 +182,7 @@
     font-size: 20px;
     padding-left: 35px;
     font-style: italic;
-    font-family: "Kanit", sans-serif;
+    @extend %font-settings;
     color: white;
     &::first-letter {
       @include FirstLetter;
@@ -198,7 +201,7 @@
     width: 289px;
     right: 30px;
     left: 30px;
-    font-family: "Kanit", sans-serif;
+    @extend %font-settings;
     color: white;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
@@ -226,15 +229,7 @@ $split-position: 49%;
 $split-thickness: 4px;
 $split-color: rgb(255, 255, 255);
 
-// === Settings =====
-%font-settings {
-  font-family: "Kanit", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-font-kerning: normal;
-  -webkit-text-size-adjust: 100%;
-}
+
 
 .Menu__list {
   @extend %font-settings;
@@ -244,6 +239,7 @@ $split-color: rgb(255, 255, 255);
   display: flex;
   position: fixed;
   margin-left: 70vw;
+  z-index: 1;
 }
 
 .Menu__list--item {

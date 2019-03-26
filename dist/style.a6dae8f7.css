@@ -53,6 +53,10 @@ table {
   border-spacing: 0;
 }
 
+.Menu__list, .products__content .effect__hover--text, .products__content .products__content--text, .section__rellax .section__rellax--name, .section__text {
+  font-family: "Kanit", sans-serif;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -112,7 +116,6 @@ table {
   position: absolute;
   top: 30%;
   right: 50vh;
-  font-family: "Kanit", sans-serif;
   font-size: 30px;
   color: white;
 }
@@ -131,7 +134,6 @@ table {
   top: 0;
 }
 .section__rellax .section__rellax--name {
-  font-family: "Kanit", sans-serif;
   font-weight: bold;
   font-size: 60px;
   color: #FFFFFF;
@@ -219,7 +221,6 @@ table {
   font-size: 20px;
   padding-left: 35px;
   font-style: italic;
-  font-family: "Kanit", sans-serif;
   color: white;
 }
 .products__content .products__content--text::first-letter {
@@ -241,7 +242,6 @@ table {
   width: 289px;
   right: 30px;
   left: 30px;
-  font-family: "Kanit", sans-serif;
   color: white;
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
@@ -262,21 +262,13 @@ table {
 }
 
 .Menu__list {
-  font-family: "Kanit", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-font-kerning: normal;
-  -webkit-text-size-adjust: 100%;
-}
-
-.Menu__list {
   font-size: 2rem;
   line-height: 1.2;
   text-transform: uppercase;
   display: flex;
   position: fixed;
   margin-left: 70vw;
+  z-index: 1;
 }
 
 .Menu__list--item {
