@@ -10,6 +10,18 @@
 %font-settings {
   font-family: "Kanit", sans-serif;
 }
+// === Variables =====
+$perspective: 60rem;
+$font-size: 2rem;
+$split-position: 49%;
+$split-thickness: 4px;
+$split-color: rgb(255, 255, 255);
+
+
+
+
+
+
 
 .header {
   position: fixed;
@@ -66,14 +78,7 @@
     position: fixed;
   }
 }
-.section__text {
-  position: absolute;
-  top: 30%;
-  right: 50vh;
-  @extend %font-settings;
-  font-size: 30px;
-  color: white;
-}
+
 
 .section__rellax {
   position: absolute;
@@ -214,12 +219,7 @@
 
 
 
-// === Variables =====
-$perspective: 60rem;
-$font-size: 2rem;
-$split-position: 49%;
-$split-thickness: 4px;
-$split-color: rgb(255, 255, 255);
+
 
 
 

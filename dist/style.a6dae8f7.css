@@ -53,7 +53,7 @@ table {
   border-spacing: 0;
 }
 
-.Menu__list, .products__content .effect__hover--text, .products__content .products__content--text, .section__rellax .section__rellax--name, .section__text {
+.Menu__list, .products__content .effect__hover--text, .products__content .products__content--text, .section__rellax .section__rellax--name {
   font-family: "Kanit", sans-serif;
 }
 
@@ -110,14 +110,6 @@ table {
 }
 .section .background {
   position: fixed;
-}
-
-.section__text {
-  position: absolute;
-  top: 30%;
-  right: 50vh;
-  font-size: 30px;
-  color: white;
 }
 
 .section__rellax {
