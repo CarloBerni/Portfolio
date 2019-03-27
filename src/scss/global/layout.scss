@@ -75,14 +75,6 @@
   color: white;
 }
 
-.picture {
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  top: 41vh;
-  left: 60vw;
-}
-
 .section__rellax {
   position: absolute;
   opacity: 1;
@@ -240,12 +232,20 @@ $split-color: rgb(255, 255, 255);
   position: fixed;
   margin-left: 70vw;
   z-index: 1;
+  text-shadow: -0.035em 0 0 #F22613,  0.035em 0 0 #00FFFF;
 }
 
 .Menu__list--item {
   position: relative;
   color: transparent;
   cursor: pointer;
+  &:first-child{
+    margin-right: 20px;
+  }
+  &:nth-child(2) {
+    margin-right: 20px;
+  }
+
   &::before {
     content: '';
     display: block;
@@ -281,12 +281,13 @@ $split-color: rgb(255, 255, 255);
   top: $split-position - 0.1;
   height: 100 - $split-position + 0.1;
   span { 
-    transform: translateY(-$split-position); 
+    transform: translateY(-$split-position);
   }
 }
 
 .Menu__list--item:hover,
 .Menu__list--item:active {
+  text-shadow: none;
   .Mask { 
     color: #FFF; 
     transform: skewX(12deg) translateX(5px);

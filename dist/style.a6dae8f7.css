@@ -120,14 +120,6 @@ table {
   color: white;
 }
 
-.picture {
-  position: absolute;
-  width: 300px;
-  height: 200px;
-  top: 41vh;
-  left: 60vw;
-}
-
 .section__rellax {
   position: absolute;
   opacity: 1;
@@ -269,12 +261,19 @@ table {
   position: fixed;
   margin-left: 70vw;
   z-index: 1;
+  text-shadow: -0.035em 0 0 #F22613, 0.035em 0 0 #00FFFF;
 }
 
 .Menu__list--item {
   position: relative;
   color: transparent;
   cursor: pointer;
+}
+.Menu__list--item:first-child {
+  margin-right: 20px;
+}
+.Menu__list--item:nth-child(2) {
+  margin-right: 20px;
 }
 .Menu__list--item::before {
   content: "";
@@ -313,6 +312,10 @@ table {
   transform: translateY(-49%);
 }
 
+.Menu__list--item:hover,
+.Menu__list--item:active {
+  text-shadow: none;
+}
 .Menu__list--item:hover .Mask,
 .Menu__list--item:active .Mask {
   color: #FFF;
