@@ -21,7 +21,11 @@ html {
   scroll-behavior: smooth;
 }
 
-
+canvas {
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
 
 
 
@@ -244,6 +248,7 @@ html {
   position: relative;
   color: transparent;
   cursor: pointer;
+  margin-top: 10px;
   &:first-child{
     margin-right: 25px;
   }
@@ -304,3 +309,5 @@ html {
     transform: scale(1); 
   }
 }
+
+

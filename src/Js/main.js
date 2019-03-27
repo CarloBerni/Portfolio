@@ -3,6 +3,7 @@ import helpers from './sub';
 
 console.log(helpers.double(12));
 console.log(rellax);
+console.log('trest')
 
 
 var rellax = new Rellax(".section__rellax", {});
