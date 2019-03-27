@@ -17,7 +17,9 @@ $split-position: 49%;
 $split-thickness: 4px;
 $split-color: rgb(255, 255, 255);
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 
@@ -233,6 +235,9 @@ $split-color: rgb(255, 255, 255);
   margin-left: 70vw;
   z-index: 1;
   text-shadow: -0.035em 0 0 #F22613,  0.035em 0 0 #00FFFF;
+  a {
+    text-decoration: none;
+  }
 }
 
 .Menu__list--item {
@@ -240,10 +245,10 @@ $split-color: rgb(255, 255, 255);
   color: transparent;
   cursor: pointer;
   &:first-child{
-    margin-right: 20px;
+    margin-right: 25px;
   }
   &:nth-child(2) {
-    margin-right: 20px;
+    margin-right: 25px;
   }
 
   &::before {
