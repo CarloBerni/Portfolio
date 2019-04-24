@@ -4,7 +4,6 @@ import helpers from './sub';
 console.log(helpers.double(12));
 
 
-var rellax = new Rellax(".section__rellax", {});
 
 
 
